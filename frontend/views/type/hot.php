@@ -53,8 +53,8 @@ use yii\helpers\Html;
                     <th style="width:10%;"><?php echo $val['type_id']?></th>
                     <th style="width:10%;"><?php echo $val['type_name']?></th>
                     <th style="width:10%;">
-                        <span class="span"><?php echo $val['hot']?></span>
-                        <input class="input" type="text"  style="display: none;text-align: center" name="hot" value="<?php echo $val['hot']?>">
+                        <span class="span"><?php echo $val['is_hot']?></span>
+                        <input class="input" type="text"  style="display: none;text-align: center" name="is_hot" value="<?php echo $val['is_hot']?>">
                     </th>
                     <th style="width:10%;"><a href="#">删除</a></th>
                 </tr>

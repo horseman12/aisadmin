@@ -141,7 +141,7 @@ class TypeController extends Controller
         $text = yii::$app->request->post('text');
 
         //修改数据库中的hot状态
-        $sql = "update `ais_type` set `hot`='$text' where `type_id` = '$id'";
+        $sql = "update `ais_type` set `is_hot`='$text' where `type_id` = '$id'";
         $res = yii::$app->db->createCommand($sql)->execute();
         if($res){
             echo "OK";
@@ -149,7 +149,6 @@ class TypeController extends Controller
             echo "ON";
         }
     }
-
 
     public function actionDel(){
         return yii::$app->request->get('id');
