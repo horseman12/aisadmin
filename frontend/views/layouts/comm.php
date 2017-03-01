@@ -461,6 +461,43 @@
                 </ul>
               </li>
 
+                <li class="line dk"></li>
+                <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                    <span translate="aside.nav.HEADER">类型管理</span>
+                </li>
+                <li>
+                    <a href class="auto">
+                  <span class="pull-right text-muted">
+                    <i class="fa fa-fw fa-angle-right text"></i>
+                    <i class="fa fa-fw fa-angle-down text-active"></i>
+                  </span>
+                        <i class="icon-user icon text-success-lter"></i>
+                        <span class="font-bold" translate="aside.nav.DASHBOARD">类型管理</span>
+                    </a>
+                    <ul class="nav nav-sub dk">
+                        <li class="nav-sub-header">
+                            <a href>
+                                <span translate="aside.nav.DASHBOARD"></span>
+                            </a>
+                        </li>
+                        <li ui-sref-active="active">
+                            <a ui-sref="app.dashboard-v1" href="?r=type/index">
+                                <span>歌曲添加类型</span>
+                            </a>
+                        </li>
+                        <li ui-sref-active="active">
+                            <a ui-sref="app.dashboard-v1" href="?r=type/show">
+                                <span>歌曲类型展示</span>
+                            </a>
+                        </li>
+                        <li ui-sref-active="active">
+                            <a ui-sref="app.dashboard-v1" href="?r=type/hot">
+                                <span>精品推荐</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
         
               <li class="line dk"></li>
               <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">

@@ -48,8 +48,6 @@ class ActorController extends Controller
 
 //            $redis = new \redis();
 //            $result = $redis->connect('127.0.0.1', 6379);
-//
-//
 //            $res = $redis->set('music_info',$info);
 
             $actor = new Actor();

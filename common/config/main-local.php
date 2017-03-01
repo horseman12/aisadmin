@@ -3,8 +3,8 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=ais_music',
-            'username' => 'root',
+            'dsn' => 'mysql:host=101.200.59.219;dbname=ais_music',
+            'username' => 'hhj',
             'password' => '123456',
             'charset' => 'utf8',
             'tablePrefix' => 'ais_'

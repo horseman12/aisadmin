@@ -72,8 +72,7 @@ class SongController extends CommonController
 		$speciaObj = new Special();
 		$speciList = $speciaObj->find()->asArray()->all();
 
-		$model = new UploadForm();
-
+		//$model = new UploadForm();
 		$data = ['styleList'=>$styleList,'langList'=>$langList,'speciList'=>$speciList];
 		return $this->render('index',$data);
 	}
